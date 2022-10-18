@@ -3,9 +3,9 @@ Test app for HammerSystems. VIPER architecture.
 
 ## Скриншоты
 
-![Screen1](https://user-images.githubusercontent.com/89085993/196528464-5e911244-87f8-4bde-b1d1-483cc0de668e.png)
+![Screen1](https://user-images.githubusercontent.com/89085993/196528636-d8872dd4-af61-4765-beea-ccede1e2eb67.png)
 
-![Screen2](https://user-images.githubusercontent.com/89085993/196528471-fc4addfd-9384-4877-9074-9d06b74623d4.png)
+![Screen2](https://user-images.githubusercontent.com/89085993/196528643-eb9c09b5-54d8-4d7e-aa22-ae710da03576.png)
 
 ## Технологии
 
