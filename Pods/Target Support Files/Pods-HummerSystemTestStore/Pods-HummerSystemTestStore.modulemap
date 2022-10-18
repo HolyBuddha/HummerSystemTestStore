@@ -1,0 +1,6 @@
+framework module Pods_HummerSystemTestStore {
+  umbrella header "Pods-HummerSystemTestStore-umbrella.h"
+
+  export *
+  module * { export * }
+}
