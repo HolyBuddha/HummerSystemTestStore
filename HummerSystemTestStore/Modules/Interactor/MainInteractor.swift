@@ -21,8 +21,8 @@ class MainInteractor: MainInteractorInput {
     }
     
     func fetchData() {
-        fakeApi.fecthMenu{ model in
-            self.output?.menuSuccess(model)
+        fakeApi.fecthCatalog{ model in
+            self.output?.catalogSuccess(catalog: model)
         }
     }
 }

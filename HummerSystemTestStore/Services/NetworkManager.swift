@@ -11,7 +11,7 @@ class FakeApi: FakeApiProtocol {
     
     let fakeStoreUrl = "https://fakestoreapi.com/products"
     
-    func fecthMenu(completion: @escaping (FakeStore) -> Void) {
+    func fecthCatalog(completion: @escaping (FakeStore) -> Void) {
         guard let url = URL(string: fakeStoreUrl ) else { return }
         
         URLSession.shared.dataTask(with: url) { data, _, error in

@@ -8,5 +8,5 @@
 import Foundation
 
 protocol MainInteractorOutput: AnyObject {
-    func menuSuccess(_ menu: FakeStore)
+    func catalogSuccess(catalog: FakeStore)
 }

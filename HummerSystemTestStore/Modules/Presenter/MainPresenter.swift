@@ -29,11 +29,11 @@ class MainPresenter: MainPresenterInput {
 }
 
 extension MainPresenter: MainInteractorOutput {
-    func menuSuccess(_ menu: FakeStore) {
-        let electronics = menu.filter({$0.category == Category.electronics})
-        let jewelery = menu.filter({$0.category == Category.jewelery})
-        let mensClothing = menu.filter({$0.category == Category.mensClothing})
-        let womensClothing = menu.filter({$0.category == Category.womensClothing})
+    func catalogSuccess(catalog: FakeStore) {
+        let electronics = catalog.filter({$0.category == Category.electronics})
+        let jewelery = catalog.filter({$0.category == Category.jewelery})
+        let mensClothing = catalog.filter({$0.category == Category.mensClothing})
+        let womensClothing = catalog.filter({$0.category == Category.womensClothing})
         let finalCatalog: FakeStore = electronics + jewelery + mensClothing + womensClothing
         viewController?.didReceiveMainData(catalog: finalCatalog)
     }

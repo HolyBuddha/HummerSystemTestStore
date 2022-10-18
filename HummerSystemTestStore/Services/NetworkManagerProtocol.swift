@@ -8,5 +8,5 @@
 import Foundation
 
 protocol FakeApiProtocol {
-    func fecthMenu(completion: @escaping(FakeStore) -> Void)
+    func fecthCatalog(completion: @escaping(FakeStore) -> Void)
 }
